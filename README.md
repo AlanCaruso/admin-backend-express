@@ -1,5 +1,3 @@
-Certainly! Here's a README template describing a backend project using Express, CORS, and Mongoose to manage a database of items with name and description:
-
 ```markdown
 # Backend with Express, Mongoose and CORS
 
@@ -57,5 +55,3 @@ Contributions are welcome. If you want to improve this project, fork it and send
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 ```
-
-This README.md provides an overview of the project, installation instructions, configuration details, usage guidelines, contribution guidelines, and license information. Adjust the `MONGODB_URI` and other specifics according to your project's setup.
