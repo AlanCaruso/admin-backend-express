@@ -1,4 +1,4 @@
-```markdown
+
 # Backend with Express, Mongoose and CORS
 
 This project implements a backend using Express.js, Mongoose, and CORS to create and manage a database of items with name and description.
@@ -21,7 +21,6 @@ Before you begin, ensure you have Node.js installed on your system.
 
    ```bash
    npm install
-   ```
 
 ## Configuration
 
@@ -54,4 +53,4 @@ Contributions are welcome. If you want to improve this project, fork it and send
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-```
+
