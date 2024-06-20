@@ -24,17 +24,7 @@ Before you begin, ensure you have Node.js installed on your system.
 
 ## Configuration
 
-1. Create a `.env` file in the root directory of the project and define the following environment variables:
-
-   ```plaintext
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
-   ```
-
-   - `PORT`: Port on which the Express server will run (default is 3000).
-   - `MONGODB_URI`: MongoDB connection URI to your database.
-
-2. Ensure your MongoDB server is running locally or the URI points to your cloud-based database.
+1. Ensure your MongoDB server is running locally or the URI points to your cloud-based database.
 
 ## Usage
 
@@ -44,7 +34,7 @@ To start the server, run the following command:
 node index.js
 ```
 
-The server will be available at `http://localhost:3000` (or the port you configured).
+The server will be available at `http://localhost:5000` (or the port you configured).
 
 ## Contributing
 
