@@ -17,9 +17,13 @@ mongoose.connect('mongodb://localhost:27017/admin-db', {
 app.use(cors()); // Habilitar CORS
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('¡Hola desde el servidor backend!');
+});
 // Usar las rutas
 app.use('/api', itemRoutes);
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
